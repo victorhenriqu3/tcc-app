@@ -3,20 +3,44 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "npx expo start",
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "prepare": "husky install",
+    "lint": "tsc --noEmit && eslint './src/**/*{js,ts,jsx,tsx}' --fix"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint './src/**/*{js,ts,jsx,tsx}' --fix",
+      "prettier --write './src/**/*{js,ts,jsx,tsx}'"
+    ]
   },
   "dependencies": {
+    "@types/react": "~18.0.24",
+    "@types/react-native": "~0.70.6",
     "expo": "~47.0.8",
     "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
+    "native-base": "^3.4.23",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-safe-area-context": "4.4.1",
+    "react-native-svg": "13.4.0",
+    "typescript": "^4.6.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "eslint-config-universe": "^11.1.1",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.4",
+    "prettier": "^2.8.0"
   },
   "private": true
 }
