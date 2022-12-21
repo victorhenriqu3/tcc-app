@@ -1,5 +1,7 @@
-import { Button, Divider, Heading, ScrollView, Text, VStack } from 'native-base'
+import { Box, Button, Divider, Heading, ScrollView, Text, VStack } from 'native-base'
 import { Image } from 'react-native'
+
+import { CardsInfo } from '../../../Components/Card/CardInfo'
 
 const women = require('../../../Assets/women.png')
 
@@ -27,6 +29,9 @@ export const Initial = () => {
           </Text>
 
           <Image source={women} />
+          <Box bg="purple.500" height={500} width={'100%'} borderTopRadius={20} mt={1}>
+            <CardsInfo />
+          </Box>
         </VStack>
       </ScrollView>
     </>
