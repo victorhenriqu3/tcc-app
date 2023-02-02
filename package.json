@@ -9,7 +9,7 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "prepare": "husky install",
-    "lint": "tsc --noEmit && eslint './src/**/*{js,ts,jsx,tsx}' --fix"
+    "lint": "tsc --noEmit && eslint './src/**/*{js,ts,jsx,tsx}' --fix && prettier --write './src/**/*{js,ts,jsx,tsx}'"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [

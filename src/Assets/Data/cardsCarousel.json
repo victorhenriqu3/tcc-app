@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "Title": "VIOLÊNCIA FISICA",
+      "Explanation": "É aquela entendida como qualquer conduta que ofenda integridade ou saúde corporal da mulher. É praticada com uso de força física do agressor, que machuca a vítima de várias maneiras ou ainda com o uso de armas, exemplos: Bater, chutar, queimar. cortar e mutilar."
+    },
+    {
+      "Title": "VIOLÊNCIA PSICOLÓGICA",
+      "Explanation": "Qualquer conduta que cause dano emocional e diminuição da autoestima da mulher, nesse tipo de violência é muito comum a mulher ser proibida de trabalhar, estudar, sair de casa, ou viajar, falar com amigos ou parentes."
+    },
+    {
+      "Title": "VIOLÊNCIA SEXUAL",
+      "Explanation": "É caracterizada como qualquer conduta que constranja a mulher a presenciar, a manter ou a participar de relação sexual não desejada; "
+    },
+    {
+      "Title": "VIOLÊNCIA PATRIMONIAL",
+      "Explanation": "Importa em qualquer conduta que configure retenção, subtração, destruição parcial ou total de objetos pertencentes à mulher, instrumentos de trabalho, documentos pessoais, bens, valores e direitos ou recursos econômicos, incluindo os destinados a satisfazer suas necessidades"
+    },
+    {
+      "Title": "VIOLÊNCIA MORAL",
+      "Explanation": "Calúnias, insultos, difamações, injúrias e mentiras são os exemplos mais comuns. Expor momentos íntimos na internet, seja por vídeo ou foto, sem a permissão da mulher também caracteriza violência moral.Obs: Esse tipo de violência pode ocorrer também pela internet."
+    }
+  ]
+}

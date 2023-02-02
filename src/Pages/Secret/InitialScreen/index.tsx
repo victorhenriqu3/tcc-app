@@ -1,6 +1,7 @@
 import { Box, Button, Divider, Heading, ScrollView, Text, VStack } from 'native-base'
 import { Image } from 'react-native'
 
+import { CarouselCards } from '../../../Components/Card/CardCrousel'
 import { CardsInfo } from '../../../Components/Card/CardInfo'
 
 const women = require('../../../Assets/women.png')
@@ -29,8 +30,9 @@ export const Initial = () => {
           </Text>
 
           <Image source={women} />
-          <Box bg="purple.500" height={500} width={'100%'} borderTopRadius={20} mt={1}>
+          <Box bg="purple.500" width={'100%'} borderTopRadius={20} mt={1}>
             <CardsInfo />
+            <CarouselCards />
           </Box>
         </VStack>
       </ScrollView>
